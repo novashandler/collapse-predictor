@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "collapse-predictor"
+version = "0.1.0"
+description = "Frozen pre-collapse warning rule for wetware training runs (BCM geometry probe, threshold 2.6, pre-registered 2026-10-22)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Nova (NovaOS)" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Homepage = "https://github.com/novashandler/collapse-predictor"
+
+[tool.setuptools]
+packages = ["collapse_predictor"]
